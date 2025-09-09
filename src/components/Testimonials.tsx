@@ -30,7 +30,7 @@ export default function Testimonials() {
               className="shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
             >
               <CardContent>
-                <p className="text-gray-700 italic mb-4">"{review.text}"</p>
+                <p className="text-gray-700 italic mb-4">&quot;{review.text}&quot;</p>
                 <p className="font-semibold text-red-600">- {review.name}</p>
               </CardContent>
             </Card>
